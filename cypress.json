@@ -1,0 +1,17 @@
+{
+    "fileServerFolder": "app/tests/e2e/",
+    "integrationFolder": "app/tests/e2e/cypress/integration",
+    "fixturesFolder": "app/tests/e2e/cypress/fixtures",
+    "supportFile": "app/tests/e2e/cypress/support",
+    "basicConfig": {
+        "staging": {
+            "visitURL": "."
+        },
+        "prod": {
+            "visitURL": "."
+        },
+        "dev": {
+            "visitURL": "http://localhost:8080/"
+        }
+    }
+}
